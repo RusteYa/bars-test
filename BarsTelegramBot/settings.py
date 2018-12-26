@@ -178,7 +178,7 @@ USE_TZ = True
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
-_PATH = BASE_DIR
+_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
