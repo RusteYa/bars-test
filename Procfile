@@ -1,1 +1,1 @@
-web: gunicorn BarsTelegramBot.wsgi
+web: gunicorn BarsTelegramBot.wsgi --log-file -
