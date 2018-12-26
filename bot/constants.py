@@ -1,0 +1,7 @@
+TELEBOT_TOKEN = '679219903:AAG413X11Psjp1YbjoYJsNCA4nj7Jbr2fKQ'
+MAIN_URL = f'https://api.telegram.org/bot{TELEBOT_TOKEN}'
+STICKER_ID = 'CAADAgADggIAAlwohgj91172rg2WVAI'
+photo1 = 'templates/Photos/welcome_img.jpg'
+photo2 = 'templates/Photos/bars_info.jpg'
+photo3 = 'templates/Photos/connect.jpg'
+doc1 = 'templates/Docs/agreement.docx'
