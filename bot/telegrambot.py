@@ -75,8 +75,6 @@ def cancel(bot, update):
 def main():
     logger.info("Loading handlers for telegram bot")
 
-    print(DjangoTelegramBot.)
-
     dp = DjangoTelegramBot.dispatcher
 
     # conv_handler = ConversationHandler(
