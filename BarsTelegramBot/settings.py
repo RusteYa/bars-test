@@ -34,7 +34,7 @@ DJANGO_TELEGRAMBOT = {
     # NB: if use polling mode you must provide to run
     # a management command that starts a worker
 
-    'WEBHOOK_SITE': 'https://0c61ccdf.ngrok.io',
+    'WEBHOOK_SITE': 'https://bars-bot.herokuapp.com',
     'WEBHOOK_PREFIX': '/prefix',  # (Optional[str]) # If this value is specified,
     # a prefix is added to webhook url
 
@@ -87,7 +87,7 @@ DJANGO_TELEGRAMBOT = {
 
 }
 
-ALLOWED_HOSTS = ['fc4a2557.ngrok.io', '127.0.0.1', ]
+ALLOWED_HOSTS = ['bars-bot.herokuapp.com', '127.0.0.1', ]
 
 # Application definition
 
